@@ -1,0 +1,53 @@
+.dashboard-main-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #f5f7fa;
+}
+h2,p:hover{
+  color: brown;
+}
+
+.main-row {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start; 
+  flex-wrap: wrap; 
+}
+
+.left-section {
+  flex: 0.6;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 300px;
+}
+
+.right-section {
+  flex: 0.4;
+  min-width: 250px;
+}
+
+.dashboard-overview {
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+.dashboard-overview:hover{
+  background-color: ghostwhite;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .main-row {
+    flex-direction: column;
+  }
+
+  .left-section,
+  .right-section {
+    flex: 1;
+    width: 100%;
+  }
+}
