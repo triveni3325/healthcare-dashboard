@@ -2,6 +2,7 @@ import React from "react";
 import './Header.css';
 import { MdNotifications } from "react-icons/md";
 import { FaPlus } from "react-icons/fa";
+import   profileImage from '../../Assets/profileImage.png';
 
 function Header() {
   return (
@@ -29,7 +30,7 @@ function Header() {
 
         {/* User Profile */}
         <div className="header-profile">
-          <img src="/image.png" alt="user" className="header-user-image" />
+          <img src={profileImage} alt="user" className="header-user-image" />
           <span className="header-username">Sam</span>
         </div>
 

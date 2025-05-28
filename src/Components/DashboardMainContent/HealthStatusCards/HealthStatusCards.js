@@ -1,6 +1,6 @@
 import React from 'react';
 import './HealthStatusCards.css';
-import { healthStatusCards } from '../../../Data/healthStatusData'; // Correct import
+import { healthStatusCards } from '../../../Data/healthStatusData'; 
 
 function HealthStatusCards() {
   return (
